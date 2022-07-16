@@ -401,6 +401,7 @@ ul {
         justify-content: center;
         margin-bottom: 80px;
         padding-right: 50px;
+        padding-left: 10px;
     }
 
     #preview-shadow {
