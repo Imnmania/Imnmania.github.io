@@ -303,6 +303,17 @@ ul {
     width: 100%;
 }
 
+.social-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.social-address svg{
+    fill: var(--secondaryText);
+}
+
 .post-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, 320px);
