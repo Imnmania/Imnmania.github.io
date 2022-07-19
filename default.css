@@ -13,6 +13,8 @@
     --previewShadow: #111921;
 
     --buttonColor: #17a2b8;
+
+    --lottieBackground: transparent
 }
 
 html, body {
@@ -306,6 +308,10 @@ ul {
 #search-icon {
     fill: var(--buttonColor);
     width: 100%;
+}
+
+#lottie-pottie {
+    background: var(--lottieBackground);
 }
 
 .social-address {
