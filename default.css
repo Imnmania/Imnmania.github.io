@@ -303,6 +303,11 @@ ul {
     width: 100%;
 }
 
+#search-icon {
+    fill: var(--buttonColor);
+    width: 100%;
+}
+
 .social-address {
     display: flex;
     justify-content: center;
@@ -338,17 +343,17 @@ ul {
 }
 
 .post-preview {
-    background-color: #fff;
+    background-color: var(--secondaryColor);
     padding: 15px;
 }
 
 .post-title {
-    color: black;
+    color: var(--mainText);
     margin: 0;
 }
 
 .post-intro {
-    color: #4b5156;
+    color: var(--secondaryText);
     font-size: 14px;
 }
 
